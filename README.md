@@ -7,7 +7,7 @@
 Ende-zu-Ende verschlüsselte Nachrichten, Anrufe und geteilte Räume —
 auf deinem eigenen Server, nicht bei einem Konzern.
 
-![Version](https://img.shields.io/badge/version-1.3.8-1f6feb?style=for-the-badge&logo=github&logoColor=white)
+![Version](https://img.shields.io/badge/version-1.3.9-1f6feb?style=for-the-badge&logo=github&logoColor=white)
 ![Plattform](https://img.shields.io/badge/plattform-Windows%20·%20Linux%20·%20Android-303030?style=for-the-badge)
 ![E2EE](https://img.shields.io/badge/ende--zu--ende-AES--256--GCM-1a7f37?style=for-the-badge&logo=lock&logoColor=white)
 ![Build](https://img.shields.io/badge/build-quelloffen-6f42c1?style=for-the-badge&logo=git&logoColor=white)
@@ -30,7 +30,11 @@ Jede Version enthält alle Plattformen im selben Stand.
 | 🤖 Android 7+ | `enigma3-<Version>.apk` | Signierte Release-APK (`CN=Enigma 3`) |
 | 🔐 Alle | `SHA256SUMS.txt` | Prüfsummen aller Dateien |
 
-**Aktuell:** [Enigma 3 – 1.3.8](../../releases/tag/v1.3.8)
+**Aktuell:** [Enigma 3 – 1.3.9](../../releases/tag/v1.3.9)
+
+**Neu in 1.3.9:** Als „verifiziert“ markierte Kontakte bleiben nach Neuladen,
+Neustart, App-Update und PIN-Entsperren verifiziert, solange sich ihre
+Schlüssel nicht ändern.
 
 ## 🚀 In drei Schritten loslegen
 
