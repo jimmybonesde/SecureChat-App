@@ -7,7 +7,7 @@
 Ende-zu-Ende verschlüsselte Nachrichten, Anrufe und geteilte Räume —
 auf deinem eigenen Server, nicht bei einem Konzern.
 
-![Version](https://img.shields.io/badge/version-1.3.10-1f6feb?style=for-the-badge&logo=github&logoColor=white)
+![Version](https://img.shields.io/badge/version-1.3.11-1f6feb?style=for-the-badge&logo=github&logoColor=white)
 ![Plattform](https://img.shields.io/badge/plattform-Windows%20·%20Linux%20·%20Android-303030?style=for-the-badge)
 ![E2EE](https://img.shields.io/badge/ende--zu--ende-AES--256--GCM-1a7f37?style=for-the-badge&logo=lock&logoColor=white)
 ![Build](https://img.shields.io/badge/build-quelloffen-6f42c1?style=for-the-badge&logo=git&logoColor=white)
@@ -30,11 +30,17 @@ Jede Version enthält alle Plattformen im selben Stand.
 | 🤖 Android 7+ | `enigma3-<Version>.apk` | Signierte Release-APK (`CN=Enigma 3`) |
 | 🔐 Alle | `SHA256SUMS.txt` | Prüfsummen aller Dateien |
 
-**Aktuell:** [Enigma 3 – 1.3.10](../../releases/tag/v1.3.10)
+**Aktuell:** [Enigma 3 – 1.3.11](../../releases/tag/v1.3.11)
 
-**Neu in 1.3.10:** Als „verifiziert“ markierte Kontakte bleiben nach Neuladen,
-Neustart, App-Update und PIN-Entsperren verifiziert, solange sich ihre
-Schlüssel nicht ändern.
+**Neu in 1.3.11:** Textauswahl in Nachrichten funktioniert wieder. Threads
+bleiben bei der Navigation erhalten, der Composer behält beim Senden den Fokus,
+und Emojis aus Kurzbefehlen wie `:thumbs_up:` wandelt die App beim Senden um.
+Uploads passen sich der Verbindungsgeschwindigkeit an. Gehärtet: Reset-Token
+ohne E-Mail, Herkunftsprüfung für die Tresor-Schnittstelle der Desktop-App,
+härtere Passwort-Hashes.
+
+**1.3.9 nicht aktualisieren:** Deren Desktop-Pakete enthielten ein veraltetes
+Frontend. Direkt auf 1.3.11 wechseln.
 
 ## 🚀 In drei Schritten loslegen
 
